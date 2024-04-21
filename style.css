@@ -33,7 +33,7 @@ section {
     margin-left: 8px;
 }
 
-p {
+.block, .link, .more p {
     color: blanchedalmond;
     font-size: 1.2rem;
 }
@@ -52,8 +52,6 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: bisque;
 }
-
-
 
 .container {
     padding: 20px;
@@ -162,4 +160,36 @@ tr:nth-child(odd) {
 }
 tr:nth-child(even) {
     background-color: #e9e9e9; 
+}
+
+.about{
+    font-family: Arial, sans-serif;
+}
+
+.size-game p{
+    color: rgb(209, 204, 204);
+    font-size: 1.2rem;
+}
+
+.size-game h1{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.size-game .large {
+    font-size: 24px;
+    color: navy;
+}
+
+.size-game .light {
+    color: red;
+}
+
+.size-game p:hover {
+    color: rgb(14, 247, 14);
+    cursor: pointer;
+}
+
+.size-game p:first-of-type {
+    font-weight: bold;
 }
